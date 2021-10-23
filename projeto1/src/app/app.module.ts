@@ -6,19 +6,25 @@ import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { NgIfNgforComponent } from './ng-if-ngfor/ng-if-ngfor.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { CrudComponent } from './componentes/crud/crud.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
     DataBindingComponent,
       SegundoComponenteComponent,
-      NgIfNgforComponent
+      NgIfNgforComponent,
+      CrudComponent
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

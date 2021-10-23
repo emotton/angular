@@ -15,12 +15,18 @@ ng serve
 
 ng g c <componente>
 
+ng g s <serviço>
+
 
 
 ========================================================
 npm cache clean --force
 
 npm uninstall -g @angular/cli
+
+Ferramentas
+===========
+https://jsonplaceholder.typicode.com/
 
 ========================================================
 VIDEOS
