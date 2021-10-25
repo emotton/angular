@@ -13,9 +13,13 @@ cd <projeto>
 
 ng serve
 
+ng g module <modulo>
+
 ng g c <componente>
 
 ng g s <serviço>
+
+npm install bootstrap@3 --save
 
 
 
@@ -23,6 +27,10 @@ ng g s <serviço>
 npm cache clean --force
 
 npm uninstall -g @angular/cli
+
+Referências
+===========
+https://webpack.js.org/
 
 Ferramentas
 ===========
@@ -40,3 +48,5 @@ https://www.youtube.com/watch?v=oMXH_GCl6N8&list=PL4iwH9RF8xHnMnKewOLjDvTHzTmyxJ
 https://www.youtube.com/watch?v=NYnvT68dIsU&list=PL4iwH9RF8xHnMnKewOLjDvTHzTmyxJNHF&index=4
 
 https://www.youtube.com/watch?v=nQJdSD0SSj0&list=PL4iwH9RF8xHnMnKewOLjDvTHzTmyxJNHF&index=5
+
+https://www.youtube.com/watch?v=8JxN-gYdZgk&list=PL4iwH9RF8xHnMnKewOLjDvTHzTmyxJNHF&index=6

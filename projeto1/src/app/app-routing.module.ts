@@ -5,9 +5,10 @@ import { SegundoComponenteComponent } from './segundo-componente/segundo-compone
 import { NgIfNgforComponent } from './ng-if-ngfor/ng-if-ngfor.component';
 
 const routes: Routes = [
+  { path: '', component: NgIfNgforComponent },
   { path: 'primeiro-componente', component: DataBindingComponent },
   { path: 'segundo-componente', component: SegundoComponenteComponent },
-  { path: 'teste', component: NgIfNgforComponent }
+  { path: 'lazy', loadChildren: () => import('./modules/lazyloading/lazyloading.module').then(m => m.LazyloadingModule) }
 ];
 
 @NgModule({
