@@ -21,7 +21,11 @@ ng g s <serviço>
 
 npm install bootstrap@3 --save
 
+========================================================
 
+Declaration : Componentes
+Imports : Modules
+Providers : Services
 
 ========================================================
 npm cache clean --force
